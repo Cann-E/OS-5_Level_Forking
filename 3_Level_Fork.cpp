@@ -5,6 +5,7 @@
 int main()
 {
     std::cout << "I am the parent process" << std::endl;
+    _exit(0);
     for(int i=0;i<4;i++){
         if (fork()==0){
             std::cout << "I am the child process " << i << std::endl;
