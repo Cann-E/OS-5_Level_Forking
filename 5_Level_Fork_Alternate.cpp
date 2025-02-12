@@ -4,7 +4,7 @@
 
 int main()
 {
-    std::cout << "I am the parent process" << std::endl;
+    std::cout << "I am the parent process" << std::endl;//parent process
     
     for(int i=0; i<2; i++){
         if(fork()==0){
