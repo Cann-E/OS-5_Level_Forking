@@ -11,7 +11,7 @@ int main()
             if(i==3){
                 for(int j=0;j<4;j++){
                     if(fork()==0){
-                        std::cout<<"I am the child process "<< i <<std::endl;
+                        std::cout<<"I am the child process "<< i <<std::endl;//child process
                         _exit(0);
                     }
                     wait(nullptr);
