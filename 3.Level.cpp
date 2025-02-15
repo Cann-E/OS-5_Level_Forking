@@ -20,7 +20,7 @@ int main()
             if(i==2){
                 for(int j=0;j<3;j++){
                     if(fork()==0){
-                        std::cout<<"I am the grandchild process "<< i <<std::endl;
+                        std::cout<<"I am the grandchild process "<< i <<std::endl;//grandchield
                         _exit(0);
                     }
                     wait(nullptr);
