@@ -23,7 +23,7 @@ int main()
                         std::cout<<"I am the grandchild process "<< i <<std::endl;//grandchield
                         _exit(0);
                     }
-                    wait(nullptr);
+                    wait(nullptr);//wait
                 }
             }
             if(i==1){
